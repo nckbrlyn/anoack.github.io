@@ -1,0 +1,30 @@
+body {
+  background: #aca;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+}
+
+h3 {
+  color: white;
+  font-size: 18px;
+}
+
+table {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+td {
+  vertical-align: top;
+  padding-right: 50px;
+}
+
+.content {
+  width: 100%;
+}

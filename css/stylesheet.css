@@ -3,11 +3,17 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
+  align-content: center;
+}
+
+.CV {
+  padding-top: 100px;
+  padding-left: 400px;
 }
 
 h1 {
   color: black;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 h3 {
@@ -18,6 +24,13 @@ h3 {
 table {
   line-height: 1.5;
   font-size: 18px;
+  padding-right: 50px;
+}
+
+.table {
+  line-height: 1.5;
+  font-size: 18px;
+  padding-right: 50px;
 }
 
 td {

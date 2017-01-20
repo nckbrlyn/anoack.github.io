@@ -1,49 +1,61 @@
-/* ––––– Typographie ––––– */
+/* ––––– Typografie ––––– */
 
-* {
+* {                             /* für gesamtes Dokument */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* ––––– Navigation ––––– */
+/* ––––– Navigation 1 & 2 ––––– */
 
 header {
   font-weight: bold;
   margin-top: 50px;
 }
 
-header ul {
+header div ul {
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
-header ul li {
+header div ul li {
   margin: 0 5px;
-}
-
-nav ul li {
   list-style: none;
 }
 
-nav ul li a {
-  color: black;
-}
-
-#nav ul li {
+#nav1 ul li {
   padding-top: 50px;
 }
 
-#nav ul li a {
+#nav1 ul li a {
   font-size: 20px;
   color: black;
   text-decoration: none;
   letter-spacing: 4px;
 }
 
-#nav ul li a:hover {
-  border-width: 4px;
-  border-style: none none solid;
-  color: cyan;
+#nav2 ul li {
+  position: absolute;;
+}
+
+#nav2 ul li:nth-child(1) {                      /* :nth-child(X) = Selektor mit Nummer des Elementes */
+  left: 60px;                                   /* Abstand links */
+}
+
+#nav2 ul li:nth-child(2) {                      /* :nth-child(X) = Selektor mit Nummer des Elementes */
+  right: 60px;                                  /* Abstand rechts */
+}
+
+#nav2 ul li a {
+  text-decoration: none;
+  font-size: 20px;                              /* Schriftgröße */
+  color: black;                                 /* Schriftfarbe */
+  letter-spacing: 4px;                          /* Spazionierung */
+}
+
+#nav1 ul li a:hover, #nav2 ul li a:hover {      /* mit Maus drüber fahren */
+  border-width: 4px;                            /* Rahmendicke */
+  border-style: none none solid;                /* 1. Rahmen ringsum, 2. links + rechts, 3. unten  */
+  color: cyan;                                  /* Farbe ändert sich */
 }
 
 /* ––––– Curriculum Vitae ––––– */
@@ -90,3 +102,5 @@ td {
 .content {
   width: 100%;
 }
+
+/* ––––– Kontakt ––––– */

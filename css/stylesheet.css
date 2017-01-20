@@ -1,7 +1,7 @@
 /* ––––– Typographie ––––– */
 
 * {
-  font-family: /*"Helvetica Neue",*/ Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* ––––– Navigation ––––– */
@@ -15,6 +15,10 @@ header ul {
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+header ul li {
+  margin: 0 5px;
 }
 
 nav ul li {
@@ -32,11 +36,13 @@ nav ul li a {
 #nav ul li a {
   font-size: 20px;
   color: black;
-  list-style: none;
-  text-align: center;
+  text-decoration: none;
+  letter-spacing: 4px;
 }
 
 #nav ul li a:hover {
+  border-width: 4px;
+  border-style: none none solid;
   color: cyan;
 }
 

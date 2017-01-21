@@ -2,6 +2,7 @@
 
 * {                             /* für gesamtes Dokument */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #efefef;
 }
 
 /* ––––– Navigation 1 & 2 ––––– */
@@ -101,11 +102,15 @@ header div ul li {
 
 #dropdown2 {
   display: none;
-  line-height: 50px;
-  margin-top: 10px;
+  line-height: 40px;
+  margin-top: 25px;
 }
 
-#dropdown2 a span:hover {
+#dropdown2 a h2 {
+  font-size: 20px;
+}
+
+#dropdown2 a h2:hover {
   color: #ffa07a;
 }
 

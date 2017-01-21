@@ -67,10 +67,17 @@ header div ul li {
 /* ––––– Dropdown-Menü ––––– */
 
 #dropdown {
-  display: inline-block;
+  display: inline-block;                        /* <span> ist inline-Element (span heißt Bereich) */
+}
+
+#dropdown span {
+  letter-spacing: 4px;
+  font-size: 20px;
 }
 
 #dropdown:hover {
+  border-width: 4px;
+  border-style: none none solid; 
   color: cyan;
 }
 

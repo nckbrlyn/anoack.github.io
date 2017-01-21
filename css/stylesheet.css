@@ -17,7 +17,6 @@ header {
 }
 
 header div ul {
-  text-align: center;
   margin: 0;
   padding: 0;
 }
@@ -25,6 +24,10 @@ header div ul {
 header div ul li {
   margin: 0 5px;
   list-style: none;
+}
+
+#nav1 ul {
+  text-align: center;
 }
 
 #nav1 ul li {
@@ -66,19 +69,44 @@ header div ul li {
 
 /* ––––– Dropdown-Menü ––––– */
 
-#dropdown {
+#dropdown1 {
   display: inline-block;                        /* <span> ist inline-Element (span heißt Bereich) */
 }
 
-#dropdown span {
+#dropdown1:hover {
+  color: cyan;
+}
+
+#dropdown1 span {
   letter-spacing: 4px;
   font-size: 20px;
 }
 
-#dropdown:hover {
+#dropdown1 span:hover {
   border-width: 4px;
-  border-style: none none solid; 
+  border-style: none none solid;
   color: cyan;
+}
+
+/*
+#dropdown1:hover{
+  border-width: 4px;
+  border-style: none none solid;
+  color: cyan;
+}*/
+
+#dropdown1:hover #dropdown2 {
+  display: block;
+}
+
+#dropdown2 {
+  display: none;
+  line-height: 50px;
+  margin-top: 10px;
+}
+
+#dropdown2 a span:hover {
+  color: #ffa07a;
 }
 
 /* ––––– Curriculum Vitae ––––– */

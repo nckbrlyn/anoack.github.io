@@ -2,7 +2,14 @@
 
 * {                             /* für gesamtes Dokument */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #efefef;
+  background-color: #e5e5e5;
+}
+
+/* ––––– Bild ––––– */
+
+#bild {
+  display: flex;
+justify-content: center;
 }
 
 /* ––––– Navigation 1 & 2 ––––– */
@@ -15,6 +22,7 @@ div ul li {
 header {
   font-weight: bold;
   margin-top: 60px;
+  margin-bottom: 160px;
 }
 
 header div ul {
@@ -68,7 +76,7 @@ header div ul li {
   color: cyan;                                  /* Farbe ändert sich */
 }
 
-/* ––––– Dropdown-Menü ––––– */
+/* ––––– Dropdown-Menü 1 & 2 ––––– */
 
 #dropdown1 {
   display: inline-block;                        /* <span> ist inline-Element (span heißt Bereich) */
@@ -87,14 +95,8 @@ header div ul li {
   border-width: 4px;
   border-style: none none solid;
   color: cyan;
+  cursor: pointer;
 }
-
-/*
-#dropdown1:hover{
-  border-width: 4px;
-  border-style: none none solid;
-  color: cyan;
-}*/
 
 #dropdown1:hover #dropdown2 {
   display: block;
@@ -160,3 +162,16 @@ td {
 }
 
 /* ––––– Kontakt ––––– */
+
+#kontakt h1 {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+#kontakt h2 {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+}

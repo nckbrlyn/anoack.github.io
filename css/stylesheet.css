@@ -64,6 +64,16 @@ header div ul li {
   color: cyan;                                  /* Farbe ändert sich */
 }
 
+/* ––––– Dropdown-Menü ––––– */
+
+#dropdown {
+  display: inline-block;
+}
+
+#dropdown:hover {
+  color: cyan;
+}
+
 /* ––––– Curriculum Vitae ––––– */
 
 body {

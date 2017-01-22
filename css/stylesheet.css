@@ -1,16 +1,25 @@
 /* ––––– Typografie ––––– */
 
 * {                             /* für gesamtes Dokument */
+  /*font-family: 'Roboto', sans-serif;*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #e5e5e5;
 }
 
-/* ––––– Bild ––––– */
+/* ––––– Bild 1 & 2 ––––– */
 
 #bild {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 65px;
 }
+
+/*
+#bild2 {
+  display: flex;
+  justify-content: space-around;
+}
+*/
 
 /* ––––– Navigation 1 & 2 ––––– */
 
@@ -173,13 +182,13 @@ body {
   padding-left: 60px;
 }
 
-h1 {
+#cv h1 {
   color: #ffa07a;
   font-size: 16px;
   letter-spacing: 4px;
 }
 
-h3 {
+#cv h3 {
   color: cyan;
   font-size: 15px;
   letter-spacing: 2px;

@@ -199,23 +199,14 @@ body {
   letter-spacing: 0.125em;
 }
 
-table {
+#cv table {
   line-height: 1.5;
   font-size: 0.95em;
   padding-right: 50px;
-}
-
-#table {
-  line-height: 1.5;
-  font-size: 0.95em;
-  padding-right: 50px;
+  max-width: 570px;
 }
 
 td {
   vertical-align: top;
-  padding-right: 50px;
-}
-
-.content {
-  width: 100%;
+  /*padding-right: 50px;*/
 }

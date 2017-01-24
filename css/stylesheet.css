@@ -214,6 +214,51 @@ table {
 
 /* ––––– Responsive Design (Media Queries) ––––– */
 
+@media screen and (min-width: 1250px) {
+
+  table {
+    width: 30%;
+    display: block;
+    padding-right: 30px;
+  }
+
+}
+
+@media screen and (max-width: 49em) {
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    border-bottom: 1px solid;
+    /*border-color: black;*/
+  }
+
+  td:first-child {
+    width: 220px;
+  }
+
+}
+
+@media screen and (max-width: 44em) {
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    border-bottom: 1px solid;
+    /*border-color: black;*/
+  }
+
+  td:first-child {
+    width: 133px;
+    /*font-weight: bold;*/
+  }
+
+}
+
 @media screen and (max-width: 34em) {
 
   thead {
@@ -224,6 +269,10 @@ table {
     border-bottom: 1px solid;
     /*border-color: black;*/
   }
+
+  /*td:first-child {
+    font-weight: bold;
+  }*/
 
   table, tbody, tr {
     display: block;

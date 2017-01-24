@@ -187,7 +187,6 @@ body {
   padding-left: 20px;
 }
 
-
 #cv h1 {
   font-size: 20px;
   letter-spacing: 0.25em;
@@ -208,7 +207,7 @@ body {
   line-height: 1.5;
   font-size: 0.95em;
   padding-right: 50px;
-  max-width: 570px;
+  width: 1500px;
 }
 
 td {

@@ -177,6 +177,10 @@ header div ul li {
 
 /* ––––– Curriculum Vitae ––––– */
 
+table {
+  float: left;
+}
+
 #cv {
   margin-left: 20px;
   margin-right: 20px;
@@ -185,38 +189,61 @@ header div ul li {
 #cv h1 {
   font-size: 20px;
   letter-spacing: 0.25em;
-}
-
-#cv h1:hover {
-  color: #ffa07a;
   cursor: default;
-}
-
-#cv h3 {
-  color: cyan;
-  font-size: 0.95em;
-  letter-spacing: 0.125em;
 }
 
 #cv table {
   border-collapse: collapse;
-  line-height: 1.5;
-  font-size: 0.95em;
-  padding-right: 50px;
-  width: 100%;
 }
 
-td, th {
-  padding: 0.75em 0.75em 0.75em 0;
+#cv table td, th {
   vertical-align: top;
+  padding: 0.5em 0.5em 0.5em 0;
+  line-height: 1.5;
 }
-
-
 
 #cv thead {
-  font-size: 1em;
-  letter-spacing: 0.125em;
+  color: cyan;
+  font-size: 1.0em;
   font-weight: bold;
+  letter-spacing: 0.125em;
   line-height: 3;
+  margin-top: 1.0em;
   cursor: default;
+}
+
+/* ––––– Responsive Design (Media Queries) ––––– */
+
+@media screen and (max-width: 34em) {
+
+  thead {
+    display: block;
+  }
+
+  tr {
+    border-bottom: 1px solid;
+    /*border-color: black;*/
+  }
+
+  table, tbody, tr {
+    display: block;
+  }
+
+  tbody th {
+    display: block;
+    font-weight: bold;
+  }
+
+  td {
+    display: inline-block;
+  }
+
+}
+
+@media screen and (max-width: 16em) {
+
+  td {
+    display: block;
+  }
+
 }

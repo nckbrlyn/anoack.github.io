@@ -204,6 +204,7 @@ body {
 }
 
 #cv table {
+  border-collapse: collapse;
   line-height: 1.5;
   font-size: 0.95em;
   padding-right: 50px;
@@ -211,6 +212,7 @@ body {
 }
 
 td {
+  border: solid;
   vertical-align: top;
   /*padding-right: 50px;*/
 }

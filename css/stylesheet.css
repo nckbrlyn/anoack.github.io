@@ -73,22 +73,22 @@ header div ul li {
 
 #nav2 ul li {
   position: absolute;
-  top: 60px;                                    /* Abstand oben */
+  top: 60px;                                 /* Abstand oben */
 }
 
-#nav2 ul li:nth-child(1) {                      /* :nth-child(X) = Selektor mit Nummer des Elementes */
-  left: 60px;                                   /* Abstand links */
+#nav2 ul li:nth-child(1) {                   /* :nth-child(X) = Selektor mit Nummer des Elementes */
+  left: 60px;                                /* Abstand links */
 }
 
-#nav2 ul li:nth-child(2) {                      /* :nth-child(X) = Selektor mit Nummer des Elementes */
-  right: 60px;                                  /* Abstand rechts */
+#nav2 ul li:nth-child(2) {                   /* :nth-child(X) = Selektor mit Nummer des Elementes */
+  right: 60px;                               /* Abstand rechts */
 }
 
 #nav2 ul li a {
-  text-decoration: none;                        /* keine Schmuckelemente */
-  font-size: 20px;                              /* Schriftgröße */
-  color: black;                                 /* Schriftfarbe */
-  letter-spacing: 0.25em;                          /* Spazionierung */
+  text-decoration: none;                     /* keine Schmuckelemente */
+  font-size: 20px;                           /* Schriftgröße */
+  color: black;                              /* Schriftfarbe */
+  letter-spacing: 0.25em;                    /* Spazionierung */
 }
 
 #nav1 ul li a:hover, #nav2 ul li a:hover {      /* mit Maus drüber fahren */
@@ -120,7 +120,7 @@ header div ul li {
   cursor: pointer;
 }
 
-#dropdown1:hover #dropdown2 {           /* Wie erstelle ich es mit #Klick# */
+#dropdown1:hover #dropdown2 {
   display: block;
 }
 
@@ -177,14 +177,9 @@ header div ul li {
 
 /* ––––– Curriculum Vitae ––––– */
 
-body {
-  font-size: 0.95em;
-  line-height: 1.5;
-  align-content: center;
-}
-
 #cv {
-  padding-left: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #cv h1 {
@@ -211,7 +206,17 @@ body {
   width: 100%;
 }
 
-td {
-  border: solid;
+td, th {
+  padding: 0.75em 0.75em 0.75em 0;
   vertical-align: top;
+}
+
+
+
+#cv thead {
+  font-size: 1em;
+  letter-spacing: 0.125em;
+  font-weight: bold;
+  line-height: 3;
+  cursor: default;
 }

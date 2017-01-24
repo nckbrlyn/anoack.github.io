@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin-bottom: 40px;
+  max-width: 100%;
 }
 
 /*
@@ -85,7 +86,7 @@ header div ul li {
 
 #nav2 ul li a {
   text-decoration: none;                        /* keine Schmuckelemente */
-  font-size: 1.25em;                              /* Schriftgröße */
+  font-size: 20px;                              /* Schriftgröße */
   color: black;                                 /* Schriftfarbe */
   letter-spacing: 0.25em;                          /* Spazionierung */
 }
@@ -188,9 +189,13 @@ body {
 
 
 #cv h1 {
-  color: #ffa07a;
-  font-size: 1em;
+  font-size: 20px;
   letter-spacing: 0.25em;
+}
+
+#cv h1:hover {
+  color: #ffa07a;
+  cursor: default;
 }
 
 #cv h3 {

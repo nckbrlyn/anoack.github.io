@@ -20,12 +20,33 @@ body {
   max-width: 100%;
 }
 
-/*
-#bild2 {
-  display: flex;
-  justify-content: space-around;
+#counter {
+  margin-top: -20px;
+  text-align: center;
+  font-size: 0.95em;
+  letter-spacing: 0.25em;
+  font-weight: bold;
 }
-*/
+
+#counter p:first-child:hover {
+  color: cyan;
+}
+
+#counter p:last-child:hover {
+  color: cyan;
+}
+
+/* ––––– Responsive Design (Media Queries) ~ Bilder / Galery ––––– */
+
+@media screen and (min-width: 1250px) {
+
+  #bild a {
+    width: 30%;
+    display: block;
+    padding-right: 30px;
+  }
+
+}
 
 /* ––––– Navigation 1 & 2 ––––– */
 
@@ -212,7 +233,7 @@ table {
   cursor: default;
 }
 
-/* ––––– Responsive Design (Media Queries) ––––– */
+/* ––––– Responsive Design (Media Queries) ~ Curriculum Vitae ––––– */
 
 @media screen and (min-width: 1250px) {
 

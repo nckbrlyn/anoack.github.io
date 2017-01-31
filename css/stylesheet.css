@@ -21,7 +21,7 @@ body {
 }
 
 #counter {
-  margin-top: -20px;
+  display: inline-block;
   text-align: center;
   font-size: 0.95em;
   letter-spacing: 0.25em;
@@ -33,24 +33,21 @@ body {
   color: black;
 }
 
+#counter a button {
+  font-weight: bold;
+  border-style: none;
+}
+
+#counter button:hover {
+  cursor: pointer;
+}
+
 #counter p:first-child:hover {
   color: cyan;
 }
 
 #counter p:last-child:hover {
   color: cyan;
-}
-
-/* ––––– Responsive Design (Media Queries) ~ Bilder / Galery ––––– */
-
-@media screen and (min-width: 1250px) {
-
-  #bild a {
-    width: 30%;
-    display: block;
-    padding-right: 30px;
-  }
-
 }
 
 /* ––––– Navigation 1 & 2 ––––– */

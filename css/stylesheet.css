@@ -28,6 +28,11 @@ body {
   font-weight: bold;
 }
 
+#counter a {
+  text-decoration: none;
+  color: black;
+}
+
 #counter p:first-child:hover {
   color: cyan;
 }

@@ -20,10 +20,29 @@ body {
   max-width: 100%;
 }
 
-/*#counter {
-  display: inline-block;
+#bild_work {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+#bild_text {
+	position: fixed;
+	display: none;
+  background-color: transparent;
+}
+
+#bild_text p {
+  font-size: 0.8em;
+  letter-spacing: 0.19em;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#counter {
   text-align: center;
-  font-size: 1,25em;
+  font-size: 1.25em;
   font-weight: 900;
 }
 
@@ -34,15 +53,9 @@ body {
 
 #counter button:hover {
   cursor: pointer;
-}
-
-#counter p:first-child:hover {
   color: cyan;
 }
 
-#counter p:last-child:hover {
-  color: cyan;
-}*/
 
 /* ––––– Navigation 1 & 2 ––––– */
 

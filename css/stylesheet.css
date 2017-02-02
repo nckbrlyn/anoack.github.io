@@ -245,6 +245,7 @@ header div ul li {
 }
 
 #menu ul {
+  text-align: center;
   padding: 0
 }
 
@@ -253,12 +254,12 @@ header div ul li {
   color: black;
 }
 
-#menu ul li h2 {
+#menu ul li a span {
   display: none;
 }
 
-#menu ul li a:hover h2 {
-  display: block;
+#menu ul li a:hover span {
+  display: inline-block;
   position: static;
 }
 

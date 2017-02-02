@@ -221,6 +221,15 @@ header div ul li {
   border-width: 0.125em;
 }
 
+/* ––––– Impressum ––––– */
+
+#impressum {                           /* Gleich wie #kontakt h1 */
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 0.125em;
+  margin-top: 40px;
+}
+
 /* ––––– Curriculum Vitae ––––– */
 
 table {

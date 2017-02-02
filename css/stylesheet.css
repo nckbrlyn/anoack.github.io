@@ -223,22 +223,29 @@ header div ul li {
 
 /* ––––– Impressum ––––– */
 
-#impressum ul {
-  padding: 0
+#impressum {
+  margin-top: 40px;
 }
 
 #impressum h1 {                           /* Gleich wie #kontakt h1 */
   text-align: center;
   font-size: 1em;
   letter-spacing: 0.125em;
-  margin-top: 40px;
+}
+
+#impressum h1:hover {
+  color: cyan;
 }
 
 #impressum h2 {                           /* Gleich wie #kontakt h1 */
   text-align: center;
-  font-size: 1em;
+  font-size: 0.95em;
   letter-spacing: 0.125em;
-  margin-top: 40px;
+  font-weight: normal;
+}
+
+#menu ul {
+  padding: 0
 }
 
 /* ––––– Curriculum Vitae ––––– */

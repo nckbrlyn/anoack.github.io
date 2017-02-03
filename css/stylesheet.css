@@ -346,10 +346,14 @@ table {
   border-collapse: collapse;
 }
 
+#cv td:first-child {
+  width: 135px;
+}
+
 #cv table td, th {
   vertical-align: top;
   padding: 0.5em 0.5em 0.5em 0;
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 #cv thead {

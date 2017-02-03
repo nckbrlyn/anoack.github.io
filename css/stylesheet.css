@@ -70,18 +70,6 @@ body {
   font-size: 0.75em;
   font-weight: bold;
 }
-/*
-#counter button {
-  font-weight: bold;
-  border-style: none;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#counter button:hover {
-  cursor: pointer;
-  color: cyan;
-}*/
 
 #counter a {
   text-decoration: none;
@@ -142,34 +130,34 @@ header div ul li {
 
 #nav2 ul li {
   position: absolute;
-  top: 60px;                                 /* Abstand oben */
+  top: 60px;
 }
 
-#nav2 ul li:nth-child(1) {                   /* :nth-child(X) = Selektor mit Nummer des Elementes */
-  left: 60px;                                /* Abstand links */
+#nav2 ul li:nth-child(1) {
+  left: 60px;
 }
 
-#nav2 ul li:nth-child(2) {                   /* :nth-child(X) = Selektor mit Nummer des Elementes */
-  right: 60px;                               /* Abstand rechts */
+#nav2 ul li:nth-child(2) {
+  right: 60px;
 }
 
 #nav2 ul li a {
-  text-decoration: none;                     /* keine Schmuckelemente */
-  font-size: 20px;                           /* Schriftgröße */
-  color: black;                              /* Schriftfarbe */
-  letter-spacing: 0.25em;                    /* Spazionierung */
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 0.25em;
 }
 
-#nav1 ul li a:hover, #nav2 ul li a:hover {      /* mit Maus drüber fahren */
-  border-width: 0.25em;                            /* Rahmendicke */
-  border-style: none none solid;                /* 1. Rahmen ringsum, 2. links + rechts, 3. unten  */
-  color: cyan;                                  /* Farbe ändert sich */
+#nav1 ul li a:hover, #nav2 ul li a:hover {
+  border-width: 0.25em;
+  border-style: none none solid;
+  color: cyan;
 }
 
 /* ––––– Dropdown-Menü 1 & 2 ––––– */
 
 #dropdown1 {
-  display: inline-block;                        /* <span> ist inline-Element (span heißt Bereich) */
+  display: inline-block;
 }
 
 #dropdown1:hover {
@@ -205,8 +193,6 @@ header div ul li {
 
 #dropdown2 a h2:hover {
   color: #ffa07a; }
-/*  border-width: 0.25em;
-  border-style: none none solid;
 }
 
 /* ––––– Kontakt ––––– */
@@ -285,46 +271,6 @@ header div ul li {
   font-weight: normal;
 }
 
-/*
-#impressum a {
-  text-align: center;
-  font-size: 1em;
-  letter-spacing: 0.125em;
-  font-weight: bold;
-}
-
-#impressum a:hover {
-  color: cyan;
-  border-style: none none solid;
-  border-width: 0.125em
-}
-
-#impressum h2 {
-  text-align: center;
-  font-size: 0.95em;
-  letter-spacing: 0.125em;
-  font-weight: normal;
-}
-
-#menu ul {
-  text-align: center;
-  padding: 0
-}
-
-#menu a {
-  text-decoration: none;
-  color: black;
-}
-
-#menu ul li span {
-  display: none;
-}
-
-#menu ul li:hover span {
-  display: inline-block;
-  position: static;
-}*/
-
 /* ––––– Curriculum Vitae ––––– */
 
 table {
@@ -386,7 +332,6 @@ table {
 
   tr {
     border-bottom: 1px solid;
-    /*border-color: black;*/
   }
 
   td:first-child {
@@ -408,7 +353,6 @@ table {
 
   tr {
     border-bottom: 1px solid;
-    /*border-color: black;*/
   }
 
   td:first-child {
@@ -429,7 +373,6 @@ table {
 
   tr {
     border-bottom: 1px solid;
-    /*border-color: black;*/
   }
 
   td:first-child {
@@ -450,7 +393,6 @@ table {
 
   tr {
     border-bottom: 1px solid;
-    /*border-color: black;*/
   }
 
   td:first-child {
@@ -472,7 +414,6 @@ table {
 
   tr {
     border-bottom: 1px solid;
-    /*border-color: black;*/
   }
 
   td:first-child {

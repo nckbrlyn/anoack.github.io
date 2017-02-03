@@ -227,17 +227,22 @@ header div ul li {
   margin-top: 40px;
 }
 
-#impressum h1 {                           /* Gleich wie #kontakt h1 */
+
+/*
+#impressum a {
   text-align: center;
   font-size: 1em;
   letter-spacing: 0.125em;
+  font-weight: bold;
 }
 
-#impressum h1:hover {
-  color: cyan;                            /* Linie drunter ??? (ohne verschieben) */
+#impressum a:hover {
+  color: cyan;
+  border-style: none none solid;
+  border-width: 0.125em
 }
 
-#impressum h2 {                           /* Gleich wie #kontakt h1 */
+#impressum h2 {
   text-align: center;
   font-size: 0.95em;
   letter-spacing: 0.125em;
@@ -254,14 +259,14 @@ header div ul li {
   color: black;
 }
 
-#menu ul li a span {
+#menu ul li span {
   display: none;
 }
 
-#menu ul li a:hover span {
+#menu ul li:hover span {
   display: inline-block;
   position: static;
-}
+}*/
 
 /* ––––– Curriculum Vitae ––––– */
 

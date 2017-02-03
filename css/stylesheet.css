@@ -1,14 +1,13 @@
 /* ––––– Typografie ––––– */
 
-* {                             /* für gesamtes Dokument */
-  /*font-family: 'Roboto', sans-serif;*/
+* {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #e5e5e5;
 }
 
 body {
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 /* ––––– Bild 1 & 2 ––––– */
@@ -25,27 +24,21 @@ body {
   flex-grow: 1;
   width: 100%;
   overflow: hidden;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
   height: 400px;
 }
 
 .bildVorschau img {
-  width: 670px;
+  width: 570px;
 }
 
 #bild_work {
-  /*display: inline-block;
-  justify-content: center;
-  margin-bottom: 40px;
-  max-width: 100%;
-  text-align: center;
-  margin-left: 630px;
-  margin-right: 20px;*/
   width: calc(100vw - 90px);
   margin: 15px;
   width: 570px;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 /*
 #bild_work .mySlides {
@@ -74,8 +67,8 @@ body {
 
 #counter {
   text-align: center;
-  font-size: 1.25em;
-  font-weight: 900;
+  font-size: 0.75em;
+  font-weight: bold;
 }
 /*
 #counter button {

@@ -34,11 +34,11 @@ body {
 }
 
 #bild_work {
-  width: calc(100vw - 90px);
-  margin: 15px;
-  width: 570px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
   margin-bottom: 40px;
+  width: calc(100vw - 90px);
 }
 
 #bild_text {

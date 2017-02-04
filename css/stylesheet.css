@@ -145,7 +145,7 @@ header div ul li {
 }
 
 #nav1 ul li a:hover, #nav2 ul li a:hover {
-  border-width: 0.25em;
+  border-width: 0.2em;
   border-style: none none solid;
   color: cyan;
 }
@@ -167,7 +167,7 @@ header div ul li {
 }
 
 #dropdown1 span:hover {
-  border-width: 0.25em;
+  border-width: 0.2em;
   border-style: none none solid;
   color: cyan;
   cursor: pointer;
@@ -198,6 +198,12 @@ header div ul li {
   font-size: 1em;
   letter-spacing: 0.125em;
   margin-top: 40px;
+}
+
+#kontakt h1 {
+  text-align: center;
+  font-size: 1.0em;
+  letter-spacing: 0.125em;
 }
 
 #kontakt h2 {
@@ -244,7 +250,7 @@ header div ul li {
 }
 
 #menu1 span:hover {
-  border-width: 0.25em;
+  border-width: 0.15em;
   border-style: none none solid;
   color: cyan;
   cursor: pointer;

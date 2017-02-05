@@ -21,9 +21,9 @@ $(document).ready(function() {
 })
 
 function bild_show () {
-document.images[0].src = "images/test.jpg"
+document.images[0].src = "images/01_1_test.png"
 }
 
 function bild_back () {
-document.images[0].src = "images/orange.png"
+document.images[0].src = "images/01_1.png"
 }

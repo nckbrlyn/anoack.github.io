@@ -47,11 +47,6 @@ body {
   background-color: transparent;
 }
 
-#bild_work a {
-  width: 570px;
-  height: 400px;
-}
-
 #bild_text p {
   font-size: 0.8em;
   letter-spacing: 0.19em;
@@ -73,6 +68,11 @@ body {
   border-style: none;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#counter a:last-child {
+  font-weight: normal;
+  letter-spacing: 0.25em;
 }
 
 #counter a:hover {

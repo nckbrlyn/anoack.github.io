@@ -19,3 +19,11 @@ $(document).ready(function() {
 		$('#bild_text').css('display', 'none');
 	});
 })
+
+function bild_show () {
+document.images[0].src = "images/test.jpg"
+}
+
+function bild_back () {
+document.images[0].src = "images/orange.png"
+}

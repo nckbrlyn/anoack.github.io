@@ -48,7 +48,7 @@ body {
 }
 
 #bild_text p {
-  font-size: 0.8em;
+  font-size: 15px;
   letter-spacing: 0.19em;
   line-height: 1.5;
   font-weight: normal;
@@ -58,7 +58,7 @@ body {
 
 #counter {
   text-align: center;
-  font-size: 0.75em;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -195,20 +195,20 @@ header div ul li {
 
 #kontakt span {
   text-align: center;
-  font-size: 1em;
+  font-size: 16px;
   letter-spacing: 0.125em;
   margin-top: 40px;
 }
 
 #kontakt h1 {
   text-align: center;
-  font-size: 1.0em;
+  font-size: 16px;
   letter-spacing: 0.125em;
 }
 
 #kontakt h2 {
   text-align: center;
-  font-size: 0.95em;
+  font-size: 15px;
   letter-spacing: 0.125em;
 }
 
@@ -216,7 +216,7 @@ header div ul li {
   text-align: center;
   list-style: none;
   text-decoration: none;
-  font-size: 0.95em;
+  font-size: 15px;
   letter-spacing: 0.125em;
   padding: 0;
 }
@@ -244,7 +244,7 @@ header div ul li {
 
 #menu1 {
   text-align: center;
-  font-size: 1em;
+  font-size: 16px;
   letter-spacing: 0.125em;
   font-weight: bold;
 }
@@ -268,7 +268,7 @@ header div ul li {
 
 #menu2 h2 {
   font-weight: normal;
-  font-size: 0.95em;
+  font-size: 15px;
   letter-spacing: 0.125em;
   font-weight: normal;
 }
@@ -306,7 +306,7 @@ table {
 
 #cv thead {
   color: cyan;
-  font-size: 1.0em;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.125em;
   line-height: 3;

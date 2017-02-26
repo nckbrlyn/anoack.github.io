@@ -455,11 +455,11 @@ table {
 	user-select: none;
 }
 
-/* ––––– galleries pointer ––––– */
+/* ––––– galleries pointer –––––
 
 .galleryImgAndInfotext img, #homeImage {
 	cursor: url(../img/Cursors/cursor_gal_mouseover.cur), default;
-}
+}*/
 
 /* ––––– portfolio ––––– */
 
@@ -469,7 +469,7 @@ table {
 }
 
 #gallery {
-	margin: 104px 0 0 0px;
+	margin: 10px 0 0 0px;
 }
 
 .galleryButtonsAndCounter {
@@ -498,7 +498,7 @@ table {
 }
 
 #gallery {
-	font-size: 11px;
+	font-size: 10px;
 }
 
 #galleryNav nav {

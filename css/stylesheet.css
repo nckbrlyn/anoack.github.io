@@ -1,3 +1,56 @@
+/* ––––– Reset CSS ––––– */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /* ––––– Typografie ––––– */
 
 * {
@@ -77,6 +130,25 @@ body {
 
 #counter a:hover {
   cursor: pointer;
+  color: cyan;
+}
+
+/* ––––– Slide ––––– */
+
+.Slide {
+  display: none;
+}
+
+button {
+  font-size: 15px;
+  border-style: none;
+  color: black;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
   color: cyan;
 }
 
@@ -445,206 +517,6 @@ table {
 
 }
 
-/* ––––– galleries not selectable ––––– */
-
-.galleryImgAndInfotext img {
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-}
-
-/* ––––– galleries pointer –––––
-
-.galleryImgAndInfotext img, #homeImage {
-	cursor: url(../img/Cursors/cursor_gal_mouseover.cur), default;
-}*/
-
-/* ––––– portfolio ––––– */
-
-.galleryImgAndInfotext {
-	height: 420px;
-	text-align: center;
-}
-
-#gallery {
-	margin: 10px 0 0 0px;
-}
-
-.galleryButtonsAndCounter {
-	margin-top: 10px;
-	text-align: center;
-  letter-spacing: 0.15em;
-}
-
-.galleryAuthorInitial {
-	margin-top: -345px;
-	margin-left: 725px;
-	font-size: 25px;
-	font-weight: bold;
-}
-
-#galleryNav {
-	position: absolute;
-	top: 670px;
-	width: 944px;
-	left: 50%;
-	margin-left: -472px;
-}
-
-#galleryNav ul {
-	margin: 0;
-	padding: 0;
-}
-
-#gallery {
-	font-size: 10px;
-}
-
-#galleryNav nav {
-	width: 428px;
-	font-weight: bold;
-	font-size: 11px;
-}
-
-.leftGalleryNav {
-	text-align: right;
-	float: left;
-}
-
-.rightGalleryNav {
-	text-align: left;
-	float: right;
-}
-
-/* =================================== */
-
-#gallery {
-	font-size: 11px;
-}
-
-#galleryNav nav {
-	width: 428px;
-	font-weight: bold;
-	font-size: 11px;
-}
-
-.leftGalleryNav {
-	text-align: right;
-	float: left;
-}
-.rightGalleryNav {
-	text-align: left;
-	float: right;
-}
-
-#galleryNav {
-	line-height: 17px;
-	letter-spacing: 0.18em;
-}
-#galleryNav ul li a:hover {
-	border-style: none none solid;
-	padding-bottom: 1px;
-	border-width: 2px;
-}
-.galleryInfotext {
-	text-align: left;
-	font-weight: normal;
-	font-size: 10.5px;
-	letter-spacing: 0.18em;
-}
-#homeText {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	letter-spacing: 0.19em;
-	line-height: 16.5px;
-	font-weight: bold;
-}
-#homeText span {
-	font-size: 14px;
-}
-#kontakt article h1 {
-	font-size: 14px;
-	letter-spacing: 0.1em;
-}
-#kontakt article h2 {
-	font-size: 11px;
-	letter-spacing: 0.1em;
-	line-height: 16.5px;
-}
-#kontakt article ul {
-	list-style: none;
-	line-height: 16.5px;
-}
-#kontakt article ul li {
-	letter-spacing: 0.1em;
-}
-#kontakt article ul li:nth-child(1) {
-	letter-spacing: 0.15em;
-}
-#kontakt article ul a {
-	text-decoration: none;
-	color: black;
-}
-#kontaktBrenda {
-	text-align: right;
-}
-#imprint h1 {
-	font-size: 14px;
-	letter-spacing: 0.18em;
-	cursor: pointer;
-}
-#imprint h1:hover {
-	border-style: none none solid;
-	border-width: 2px;
-}
-
-#kontaktAndrea, #kontaktBrenda {
-	font-size: 11px;
-	font-weight: bold;
-}
-
-#kontakt #imprint h2 {
-	padding: 30px 0 0 0;
-}
-#imprintText {
-	display: none;
-	font-size: 11px;
-	font-weight: bold;
-}
-#imprintText p {
-
-	padding: 30px 0 40px 0;
-}
-#bagGalleryNav {
-	font-size: 11px;
-	font-weight: bold;
-}
-#bagGalleryNav h1 {
-	font-size: 14px;
-}
-#bagStaticInfo p {
-	font-size: 11px;
-	font-weight: bold;
-	line-height: 13px;
-}
-#bagStaticInfo p:nth-child(3) a {
-	font-size: 14px;
-}
-#bagGalleryNav, #bagStaticInfo {
-	letter-spacing: 0.1em;
-}
-#bagGallery .galleryInfotext {
-	font-weight: bold;
-}
-.galleryInfotext {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	letter-spacing: 0.19em;
-	line-height: 16.5px;
-
-}
-.galleryInfotext span {
-	font-size: 14px;
+.w3-center {
+  text-align: center;
 }

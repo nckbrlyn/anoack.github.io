@@ -25,7 +25,7 @@
             <div id="dropdown1">
               <span>Portfolio</span>
                 <div id="dropdown2">
-                  <a href="CV.html"><h2>Curriculum Vitae</h2></a>
+                  <!--<a href="CV.html"><h2>Curriculum Vitae</h2></a>-->
                   <a href="work.html"><h2>Work</h2></a>
                 </div>
             </div>
@@ -39,8 +39,14 @@
 
     <!-- Navigation – Ende -->
 
-    <div id="bild_work">
+    <!--<div id="bild_work">
       <img src="images/01_1.png" alt="#" onclick="bild_show ()"; ondblclick="bild_back ()">
+    </div>-->
+
+    <div id="bild_work" style="max-width:570px">
+      <img class="Slide" src="images/01_1.png" style="width:100%">
+      <img class="Slide" src="images/01_2.png" style="width:100%">
+      <img class="Slide" src="images/01_3.png" style="width:100%">
     </div>
     <article id="bild_text">
       <p>Hier steht Platzhaltertext für das Projekt<br>
@@ -49,12 +55,45 @@
       </p>
     </article>
 
-    <div id="counter">
-      <a href="orange1.html">O</a>
-      <a href="orange2.html">O</a>
-      <a href="orange3.html">O</a><br><br>
-      <a href="work.html">zur&uuml;ck</a>
+    <div class="w3-center">
+      <div class="w3-section">
+        <button class="w3-button" onclick="plusDivs(-1)"><</button>
+          <!--<button class="w3-button demo" onclick="currentDiv(1)">1</button>
+          <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+          <button class="w3-button demo" onclick="currentDiv(3)">3</button>-->
+        <button class="w3-button" onclick="plusDivs(1)">></button>
+      </div>
     </div>
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("Slide");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          //dots[i].className = dots[i].className.replace(" w3-red", "");
+        }
+        x[slideIndex-1].style.display = "block";
+        //dots[slideIndex-1].className += " w3-red";
+        }
+
+</script>
 
   </body>
 </html>

@@ -339,6 +339,15 @@ header div ul li {
 	font-weight: normal;
 }
 
+#copyright p {
+	text-align: center;
+	font-size: 0.8em;
+	letter-spacing: 0.125em;
+	font-weight: normal;
+	padding-top: 25px;
+	height: 30px;
+}
+
 #menu1 {
   text-align: center;
   font-size: 1em;
@@ -365,13 +374,16 @@ header div ul li {
 
 #menu2 h2 {
   font-weight: normal;
-  font-size: 0.95em;
+  font-size: 0.8em;
   letter-spacing: 0.125em;
   font-weight: normal;
 }
 
 #menu2 span {
 	text-align: center;
+	font-weight: normal;
+	font-size: 0.8em;
+	line-height: 1.25em;
 }
 
 #menu2 span:hover {

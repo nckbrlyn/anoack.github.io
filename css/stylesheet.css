@@ -154,10 +154,12 @@ button {
   cursor: pointer;
   text-align: center;
 	letter-spacing: 0.25em;
+	outline: 0 none;
 }
 
 button:hover {
   color: cyan;
+	outline: 0 none;
 }
 
 /* ––––– Navigation 1 & 2 ––––– */

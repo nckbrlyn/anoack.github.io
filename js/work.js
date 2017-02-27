@@ -21,7 +21,7 @@ $(document).ready(function() {
 })
 
 function bild_show () {
-document.images[0].src = "images/01_1_test.png"
+document.images[0].src = "images/01_1_test.jpg"
 }
 
 function bild_back () {

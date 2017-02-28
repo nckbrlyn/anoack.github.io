@@ -137,13 +137,24 @@ body {
 
 /* ––––– Slide ––––– */
 
+#box {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	height: 570px;
+	width: 570px;
+
+}
+
 .w3-center {
   margin-left: auto;
-  margin-right: auto }
+  margin-right: auto;
 }
 
 .Slide {
   display: none;
+	margin-right: auto;
+  margin-left: auto;
 }
 
 button {

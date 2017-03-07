@@ -244,42 +244,42 @@ header div ul li {
 
 /* ––––– Dropdown-Menü 1 & 2 ––––– */
 
-#dropdown1 {
+.dropdown1 {
   display: inline-block;
 }
 
-#dropdown1:hover {
+.dropdown1:hover {
   color: cyan;
 }
 
-#dropdown1 span {
+.dropdown1 span {
   letter-spacing: 0.25em;
   font-size: 1em;
   font-weight: medium;
 }
 
-#dropdown1 span:hover {
+.dropdown1 span:hover {
   border-width: 0.2em;
   border-style: none none solid;
   color: cyan;
   cursor: pointer;
 }
 
-#dropdown1:hover #dropdown2 {
+.dropdown1:hover .dropdown2 {
   display: block;
 }
 
-#dropdown2 {
+.dropdown2 {
   display: none;
   line-height: 40px;
   margin-top: 25px;
 }
 
-#dropdown2 a h2 {
+.dropdown2 a h2 {
   font-size: 1em;
 }
 
-#dropdown2 a h2:hover {
+.dropdown2 a h2:hover {
   color: /*#ffa07a*/cyan;
 }
 
@@ -578,4 +578,45 @@ table {
 
 .w3-center {
   text-align: center;
+}
+
+/* ====================== */
+
+.container {
+  display: inline-block;
+}
+
+.container:hover {
+  color: cyan;
+}
+
+.container span {
+  letter-spacing: 0.25em;
+  font-size: 1em;
+  font-weight: medium;
+}
+
+.container span:hover {
+  border-width: 0.2em;
+  border-style: none none solid;
+  color: cyan;
+  cursor: pointer;
+}
+
+.container:hover .details {
+  display: block;
+}
+
+.details {
+  display: none;
+  line-height: 40px;
+  margin-top: 25px;
+}
+
+.details a h2 {
+  font-size: 1em;
+}
+
+.details a h2:hover {
+  color: /*#ffa07a*/cyan;
 }

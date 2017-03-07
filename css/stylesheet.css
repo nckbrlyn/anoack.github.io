@@ -367,20 +367,28 @@ header div ul li {
   font-weight: bold;
 }
 
-#menu1 span:hover {
+#menu1 a {
+	text-decoration: none;
+	color: black;
+}
+
+#menu1 a:hover {
   border-width: 0.15em;
   border-style: none none solid;
   color: cyan;
   cursor: pointer;
 }
 
+/* ---
+
 #menu1:hover #menu2 {
   display: block;
 }
 
+--- */
+
 #menu2 {
   display: none;
-  /*line-height: 40px;*/
   margin-top: 25px;
 }
 

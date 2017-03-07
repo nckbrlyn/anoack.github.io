@@ -46,3 +46,11 @@ document.images[0].src = "images/01_1.png"
 		});
 
 	});
+
+// Klick für Impressum
+
+$("#menu2").hide();
+$("a").on("click", function(e){
+    e.preventDefault();
+$("#menu2").toggle();
+});

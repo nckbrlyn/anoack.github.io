@@ -5,6 +5,7 @@
   <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
   <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="js/work.js"></script>
   </head>
   <body>
 
@@ -62,7 +63,7 @@
       <ul>
         <li>
           <div id="menu1">
-            <span>Impressum</span>
+            <a href="#">Impressum</a>
               <div id="menu2">
                 <span>
                   Andre Noack<br />
@@ -137,10 +138,18 @@
                 </p>
 
             </div>
-          </div>
-        </li>
-      </ul>
-    </div>
+          </li>
+        </ul>
+      </div>
+
+      <script>
+      $("#menu2").hide();
+      $("a").on("click", function(e){
+          e.preventDefault();
+      $("#menu2").toggle();
+      });
+      </script>
+
       <div id="copyright">
         <p>© 2017 Andre Noack<p>
       </div>

@@ -270,7 +270,7 @@ header div ul li {
   line-height: 40px;
 }
 
-.dropdown2:hover {
+.dropdown2 a h2:hover {
 	position: absolute;
   border-width: 0.2em;
   border-style: none none solid;

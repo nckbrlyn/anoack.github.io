@@ -267,7 +267,6 @@ header div ul li {
 }
 
 .dropdown1:hover .dropdown2 {
-	background-color: transparent
   display: block;
 }
 

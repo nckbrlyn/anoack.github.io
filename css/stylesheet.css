@@ -210,10 +210,12 @@ header div ul li {
 }
 
 #nav1 ul li a {
+	position: absolute;
   font-size: 1em;
   color: black;
   text-decoration: none;
   letter-spacing: 0.25em;
+	background-color: none;
 }
 
 #nav2 ul li {
@@ -269,10 +271,14 @@ header div ul li {
   display: block;
 }
 
+#nav1 .dropdown2 {
+	margin-left: -50%;
+}
+
 .dropdown2 {
   display: none;
   line-height: 40px;
-  margin-top: 25px;
+  /*margin-top: 25px;*/
 }
 
 .dropdown2 a h2 {
@@ -372,7 +378,7 @@ header div ul li {
 	color: black;
 }
 
-#menu1 a:hover {
+#menu1 span:hover {
   border-width: 0.15em;
   border-style: none none solid;
   color: cyan;

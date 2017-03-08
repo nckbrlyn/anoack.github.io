@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>&#x394;ndre Noack</title>
+    <title>&#x394;ndre Noack &#124; Kontakt</title>
   <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
   <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
@@ -63,7 +63,7 @@
       <ul>
         <li>
           <div id="menu1">
-            <a href="#">Impressum</a>
+            <span href="#">Impressum</span>
               <div id="menu2">
                 <span>
                   Andre Noack<br />
@@ -144,7 +144,7 @@
 
       <script>
       $("#menu2").hide();
-      $("a").on("click", function(e){
+      $("span").on("click", function(e){
           e.preventDefault();
       $("#menu2").toggle();
       });

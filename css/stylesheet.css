@@ -54,7 +54,7 @@ table {
 
 * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #e5e5e5;
+  /*background-color: #e5e5e5;*/
 }
 
 body {
@@ -277,6 +277,7 @@ header div ul li {
 .dropdown2 {
   display: none;
   line-height: 40px;
+	background: rgba(0, 0, 0, 0);
 }
 
 .dropdown2 a h2 {

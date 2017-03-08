@@ -204,10 +204,7 @@ header div ul li {
 #nav1 ul {
   text-align: center;
 }
-/*
-#nav1 ul li {
-}
-*/
+
 #nav1 ul li a {
 	position: absolute;
   font-size: 1em;
@@ -248,10 +245,10 @@ header div ul li {
 .dropdown1 {
   display: inline-block;
 }
-
+/*
 .dropdown1:hover {
   color: cyan;
-}
+}*/
 
 .dropdown1 span {
   letter-spacing: 0.25em;
@@ -277,7 +274,14 @@ header div ul li {
 .dropdown2 {
   display: none;
   line-height: 40px;
-	background: rgba(0, 0, 0, 0);
+}
+
+.dropdown2:hover {
+	position: absolute;
+  border-width: 0.2em;
+  border-style: none none solid;
+  color: cyan;
+  cursor: pointer;
 }
 
 .dropdown2 a h2 {
@@ -286,6 +290,10 @@ header div ul li {
 
 .dropdown2 a h2:hover {
   color: cyan;
+	text-decoration-line: underline;
+	border-width: 0.2em;
+	/*border-style: none none solid;*/
+	cursor: pointer;
 }
 
 /* ––––– Kontakt ––––– */

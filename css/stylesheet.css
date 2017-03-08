@@ -204,11 +204,10 @@ header div ul li {
 #nav1 ul {
   text-align: center;
 }
-
+/*
 #nav1 ul li {
-  padding-top: 60px;
 }
-
+*/
 #nav1 ul li a {
 	position: absolute;
   font-size: 1em;
@@ -238,7 +237,7 @@ header div ul li {
   letter-spacing: 0.25em;
 }
 
-#nav1 ul li a:hover, #nav2 ul li a:hover {
+#nav2 ul li a:hover {
   border-width: 0.2em;
   border-style: none none solid;
   color: cyan;
@@ -268,6 +267,7 @@ header div ul li {
 }
 
 .dropdown1:hover .dropdown2 {
+	background-color: transparent
   display: block;
 }
 
@@ -278,7 +278,6 @@ header div ul li {
 .dropdown2 {
   display: none;
   line-height: 40px;
-  /*margin-top: 25px;*/
 }
 
 .dropdown2 a h2 {
@@ -286,7 +285,7 @@ header div ul li {
 }
 
 .dropdown2 a h2:hover {
-  color: /*#ffa07a*/cyan;
+  color: cyan;
 }
 
 /* ––––– Kontakt ––––– */
@@ -378,7 +377,7 @@ header div ul li {
 	color: black;
 }
 
-#menu1 span:hover {
+#menu1 label:hover {
   border-width: 0.15em;
   border-style: none none solid;
   color: cyan;

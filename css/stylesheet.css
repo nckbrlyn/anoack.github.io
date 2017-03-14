@@ -69,7 +69,6 @@ body {
   justify-content: space-around;
   flex-direction: row;
   margin-bottom: 40px;
-  /*width: calc(100vw - 90px);*/
 }
 
 .bildVorschau {
@@ -80,19 +79,11 @@ body {
   margin-right: 20px;
   height: 400px;
 }
-/*
-.bildVorschau img {
-  width: 570px;
-}*/
 
 #bild_work {
-  /*display: flex;
-  justify-content: space-around;
-  flex-direction: row;*/
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /*width: calc(100vw - 90px);*/
 }
 
 #bild_text {
@@ -124,10 +115,6 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
-
-/*#counter a:last-child {
-
-}*/
 
 #counter a:hover {
   cursor: pointer;
@@ -282,13 +269,6 @@ header div ul li {
   font-size: 1em;
 }
 
-/*.dropdown2 a h2:hover {
-  color: cyan;
-	border-style: none none solid;
-	border-width: 0.2em;
-	cursor: pointer;
-}*/
-
 /* ––––– Kontakt ––––– */
 
 #kontakt span {
@@ -384,14 +364,6 @@ header div ul li {
   color: cyan;
   cursor: pointer;
 }
-
-/* ---
-
-#menu1:hover #menu2 {
-  display: block;
-}
-
---- */
 
 #menu2 {
   display: none;

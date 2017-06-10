@@ -64,11 +64,11 @@ body {
 
 /* ––––– Bild 1 & 2 ––––– */
 
-#bild {
+#bild_ani {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  /*margin-bottom: 40px;*/
+  margin-bottom: 40px;
 }
 
 .bildVorschau {
@@ -77,8 +77,8 @@ body {
 	display: inline-block;
   width: 100%;
   overflow: hidden;
-  margin-left: 20px;
-  margin-right: 20px;
+  /*margin-left: 25px;
+  margin-right: 70px;*/
   height: 150px;
 	width: 200px;
 }
@@ -176,7 +176,7 @@ div ul li {
 }
 
 header {
-  font-weight: bold;
+  font-weight: medium;
   margin-top: 60px;
   margin-bottom: 160px;
 }
@@ -190,35 +190,76 @@ header div ul li {
   margin: 0 5px;
   list-style: none;
 }
-
-#nav1 ul {
-  text-align: center;
+/*
+#nav1 ul li {
+	position: absolute;
+	display: inline-block;
+	top: 60px;
 }
 
 #nav1 ul li a {
-	position: absolute;
+	text-decoration: none;
   font-size: 1em;
   color: black;
-  text-decoration: none;
   letter-spacing: 0.25em;
 }
 
-#nav2 ul li {
+#nav1 ul li a:hover {
+  border-width: 0.2em;
+  border-style: none none solid;
+  color: cyan;
+}*/
+#nav1 ul li {
   position: absolute;
   top: 60px;
 }
 
+#nav1 ul li {
+	left: 60px;
+}
+
+#nav1 ul li a {
+  text-decoration: none;
+  font-size: 1.0em;
+  color: black;
+  letter-spacing: 0.25em;
+}
+
+#nav1 ul li a:hover {
+  border-width: 0.2em;
+  border-style: none none solid;
+  color: cyan;
+}
+/*===========*/
+
+#nav2 {
+	text-align: center;
+	flex: auto;
+	padding: 0;
+	margin: 0;
+}
+
+#nav2 ul li {
+	list-style: none;
+	display: inline;
+}
+/*
 #nav2 ul li:nth-child(1) {
   left: 60px;
 }
 
 #nav2 ul li:nth-child(2) {
-  right: 60px;
+  margin-left: 0 auto;
+	margin-right: 0 auto;
 }
 
+#nav2 ul li:nth-child(3) {
+  right: 60px;
+}
+*/
 #nav2 ul li a {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.8em;
   color: black;
   letter-spacing: 0.25em;
 }
@@ -232,21 +273,20 @@ header div ul li {
 /* ––––– Dropdown-Menü 1 & 2 ––––– */
 
 .dropdown1 {
-  display: inline-block;
+  display: absolute;
 }
 /*
 .dropdown1 a span {
 	letter-spacing: 0.25em;
 	font-size: 1em;
 	text-align: center;
-}
-*/
-.dropdown1 span {
+}*/
+.dropdown1 h2 {
   letter-spacing: 0.25em;
   font-size: 1em;
 }
 
-.dropdown1 span:hover {
+.dropdown1 a h2:hover {
   border-width: 0.2em;
   border-style: none none solid;
   color: cyan;
@@ -257,9 +297,10 @@ header div ul li {
   display: block;
 }
 
+/*
 #nav1 .dropdown2 {
 	margin-left: -50%;
-}
+}*/
 
 .dropdown2 {
   display: none;

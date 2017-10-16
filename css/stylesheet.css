@@ -53,8 +53,7 @@ table {
 /* ––––– Typografie ––––– */
 
 * {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*background-color: #e5e5e5;*/
+  font-family: "Circular Std"/*, Helvetica, Arial, sans-serif;*/
 }
 
 body {
@@ -190,6 +189,51 @@ header div ul li {
   margin: 0 5px;
   list-style: none;
 }
+
+#nav2 {
+  text-align: center;
+/*  -webkit-box-shadow: 0 8px 6px -6px #333;
+     -moz-box-shadow: 0 8px 6px -6px #333;
+          box-shadow: 0 8px 6px -6px #333;*/
+}
+
+#nav2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#nav2 ul li:first-child {
+	text-align: left;
+}
+#nav2 ul li:last-child {
+	text-align: right;
+}
+
+#nav2 ul li a {
+  display: inline-block;
+  /*height: 6.25em;*/
+  text-decoration: none;
+  color: black;
+	font-size: 1em;
+	letter-spacing: 0.25em;
+  transition: .3s color;
+}
+
+#nav2 ul li a:hover {
+	border-width: 0.2em;
+	color: cyan;
+}
+
+#nav2 ul li a:active {
+  background-color: #6CBDF2;
+  cursor: default;
+}
+
+#nav2 li {
+     display: inline-block;
+}
+
 /*
 #nav1 ul li {
 	position: absolute;
@@ -208,7 +252,7 @@ header div ul li {
   border-width: 0.2em;
   border-style: none none solid;
   color: cyan;
-}*/
+}
 #nav1 ul li {
   position: absolute;
   top: 60px;
@@ -230,7 +274,6 @@ header div ul li {
   border-style: none none solid;
   color: cyan;
 }
-/*===========*/
 
 #nav2 {
 	text-align: center;
@@ -251,7 +294,7 @@ header div ul li {
 #nav2 ul li:nth-child(3) {
   right: 60px;
 }
-*/
+
 
 #nav2 ul li a {
   text-decoration: none;

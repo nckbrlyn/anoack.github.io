@@ -53,7 +53,7 @@ table {
 /* ––––– Typografie ––––– */
 
 * {
-  font-family: "Circular Std"/*, Helvetica, Arial, sans-serif;*/
+  font-family: "Circular Std", Helvetica, Arial, sans-serif;
 }
 
 body {
